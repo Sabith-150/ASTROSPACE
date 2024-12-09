@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASTROSPACE - Light-Year</title>
+    <link rel="stylesheet" href="space.css"> 
+    <link href="https://unpkg.com/boxicons/css/boxicons.min.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">ASTROSPACE</div>
+        <input type="checkbox" id="toggle-menu" class="toggle-menu">
+        <label for="toggle-menu" class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li> 
+            <li><a href="light-year.html" class="active">Light-Year</a></li> 
+            <li><a href="feedback.html"><i class='bx bxs-star'></i></a></li> <!-- Corrected href -->
+        </ul>
+        
+    </nav>
+
+    <div class="bar2">
+        <h1>What is Light-Year ?</h1>
+        <div class="p">
+            <p>A light year is a unit of distance used  by astronomers to measure the vastness of space.
+                It represents the distance light travels in one year, moving at an incredible speed of
+                about  299,792 kilometers per second (186,282 miles per second). Over the course of a year, 
+                this adds up to roughly 9.46 trillion kilometers (or 5.88 trillion miles).
+            </p>
+        </div>
+        <h2>CONVERTS LIGHT-YEAR INTO KILOMETERS</h2>
+        <div class="bar3">
+            <div class="bar31">
+               <input id="year-input" type="text " placeholder=" ENTER LIGHT-YEAR">
+               <button id="year-btn"><i class='bx bxs-right-arrow-circle'></i></button>
+            </div>
+            <div class="bar32">
+                <div id="year-display"></div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="light.js"></script>
+
+</body>
+</html>

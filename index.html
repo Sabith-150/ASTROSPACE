@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASTROSPACE</title>
+    <link rel="stylesheet" href="space.css">
+    <link href="https://unpkg.com/boxicons/css/boxicons.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">ASTROSPACE</div>
+        
+        <input type="checkbox" id="toggle-menu" class="toggle-menu">
+        <label for="toggle-menu" class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+        <ul class="nav-links">
+            <li><a href="space.html" class="active">Home</a></li>
+            <li><a href="light-year.html">Light-Year</a></li>
+            <li><a href="feedback.html"><i class='bx bxs-star'></i></a></li>
+        </ul>
+        
+    </nav>
+
+    <div class="bar1">
+        <div class="b11">
+            <i class='bx bxs-planet'></i>
+            <input id="inputsearch" type="text" placeholder="Search a Planet" oninput="showSuggestions()">
+            <button id="searchbtn"><i class='bx bx-search-alt'></i></button>
+        </div>
+        <ul id="suggestionBox" class="sugestion-box"><i class='bx bx-loader'></i></ul>
+        <div id="searchDisplay" class="search-display"><p>Space is the vast, seemingly infinite expanse that 
+            exists beyond Earth's atmosphere, where stars, planets, galaxies, and other celestial bodies exist.</p></div>
+    </div>
+
+    <script src="space.js" defer></script>
+
+</body>
+</html>
