@@ -1,0 +1,206 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASTROSPACE</title>
+    <link rel="stylesheet" href="space.css">
+    <link href="https://unpkg.com/boxicons/css/boxicons.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar-container container">
+            <input type="checkbox" name="" id="">
+            <div class="hamburger-lines">
+                <span class="line line1"></span>
+                <span class="line line2"></span>
+                <span class="line line3"></span>
+            </div>
+            <ul class="menu-items">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#service">Services</a></li>
+                <li><a href="#planets">Planets</a></li>
+                <li><a href="#lightyear">Lightyear</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#"></a></li>
+            </ul>
+            <h1 class="logo">ASTROSPACE</h1>
+        </div>
+    </nav>
+
+    <div class="welcome">
+        <h1>EXPLORE <br> THE UNIVERSE WITH US</h1>
+    </div>
+
+    <div id="About" class="about">
+        <div class="us">
+            <h2>About Us</h2>
+            <p>At ASTROSPACE, we are passionate about exploring the vastness of space and sharing that wonder with our
+                community. Our platform
+                serves as a gateway to the cosmos, offering engaging content and tools that cater to space enthusiasts
+                of all levels.
+                From insightful articles on celestial phenomena to interactive features that provide detailed
+                information about planets,
+                ASTROSPACE is dedicated to fueling your curiosity and fascination with the universe.
+            </p>
+        </div>
+        <div class="mission">
+            <h2>Our Mission</h2>
+            <p>Our mission at ASTROSPACE is to inspire a love for space exploration
+                and knowledge through innovative tools and engaging content.
+                We aim to provide a user-friendly experience that not only educates
+                but also captivates our visitors. By combining technology with astronomy,
+                we empower individuals to embark on their own cosmic journeys,
+                enriching their understanding of the universe and its wonders.
+            </p>
+        </div>
+    </div>
+
+    <div id="service" class="service">
+        <div class="service-text">
+            <h2>SERVICES</h2>
+            <p>Explore ASTROSPACE's unique features designed to
+                enhance your space exploration experience. From interactive searches
+                to educational tools, we provide everything you need to delve deeper into the cosmos.
+            </p>
+        </div>
+        <div class="service-item">
+            <div class="item item1">
+                <img src="astro-space.img/service 1.jpeg" alt="">
+            </div>
+            <div class="item item2">
+                <h3>Planet Search Tool</h3>
+                <p>Navigate the universe with our advanced planet search tool. Enter your
+                    queries to discover detailed information about various planets, including
+                    their characteristics, atmospheres, and orbits. This intuitive feature is
+                    designed to make your exploration seamless and informative,
+                    allowing you to uncover the mysteries of our solar system and beyond.
+                </p>
+            </div>
+            <div class="item item3">
+                <h3 class="item3t">Lightyear Conversion Calculator</h3>
+                <p class="item3t">Utilize our lightyear conversion calculator to grasp the vast
+                    distances in space. With just a few clicks, convert lightyears
+                    into kilometers and gain a better understanding of the scale of
+                    the universe. This tool is perfect for anyone looking to deepen
+                    their appreciation of astronomical distances.
+                </p>
+            </div>
+            <div class="item item4">
+                <img src="astro-space.img/service 2.jpeg" alt="">
+            </div>
+            <div class="item item5">
+                <img src="astro-space.img/service 3.jpeg" alt="">
+            </div>
+            <div class="item item6">
+                <h3>Testimonials and Community Feedback</h3>
+                <p>Join our community and share your experiences with ASTROSPACE. Our
+                    testimonials page allows users to provide feedback on their journe
+                    y through our platform, fostering a sense of connection and collaboration
+                    among space enthusiasts. Your insights help us improve and expand our services,
+                    ensuring a rich experience for all.</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="planets" class="bar1">
+        <div class="bar1-text">
+            <div class="bar1-text-tool">
+                <h1>SEARCH <br> PLANETS </h1>
+            </div>
+            <img src="astro-space.img/satellite.webp" alt="Satellite" class="satellite animated">
+        </div>
+        <div class="b11">
+            <i class='bx bxs-planet'></i>
+            <input id="inputsearch" type="text" placeholder="Search a Planet" oninput="showSuggestions()">
+            <button id="searchbtn"><i class='bx bx-search-alt'></i></button>
+        </div>
+        <div id="searchDisplay" class="search-display">
+            <p>Space is the vast, seemingly infinite expanse that
+                exists beyond Earth's atmosphere, where stars, planets, galaxies, and other celestial bodies exist.</p>
+        </div>
+    </div>
+
+    <div id="lightyear" class="bar2">
+        <div class="bar2-text">
+            <div class="bar2-img">
+                <img src="astro-space.img/bar2-img.jpg" alt="">
+            </div>
+            <div class="bar2-main-text">
+                <h1>What is Light-Year ?</h1>
+                <p>A light-year is a unit of distance used in astronomy to measure how far light travels in one year.
+                    Light moves at an incredible speed of approximately 300,000 kilometers per second (or 186,000 miles
+                    per second), and over the course of a year, it travels about 9.46 trillion kilometers (or 5.88
+                    trillion miles). Despite its name, a light-year measures distance, not time, and it is primarily
+                    used to express the vast distances between celestial objects like stars and galaxies. For example,
+                    if a star is said to be 4 light-years away, it means the light we see from that star today actually
+                    left it 4 years ago, giving us a glimpse into the past. This makes the light-year an essential tool
+                    for understanding the enormous scale of the universe and the concept of observing distant objects as
+                    they existed in earlier times.
+                </p>
+            </div>
+        </div>
+        <h2 class="title">CONVERT LIGHT-YEAR INTO KILOMETERS</h2>
+        <div class="bar3">
+            <div class="bar31">
+                <input id="year-input" type="text" placeholder="Enter Light-Year" aria-label="Light-Year Input">
+                <button id="year-btn" aria-label="Submit Light-Year">
+                    <i class='bx bxs-right-arrow-circle'></i>
+                </button>
+            </div>
+            <div class="bar32" id="year-display">Waiting for input...</div>
+        </div>
+    </div>
+    
+
+    <div class="contact-page">
+        <div class="background">
+            <div class="stars-container">
+                <div class="star"></div>
+                <div class="star"></div>
+                <div class="star"></div>
+                <div class="star"></div>
+                <div class="star"></div>
+                <div class="star"></div>
+                <div class="star"></div>
+                <div class="star"></div>
+                <div class="star"></div>
+                <div class="star"></div>
+            </div>
+        </div>
+        <div class="contact-info">
+            <h4 class="first-title">Email</h4>
+            <p>aboobackersabith150@gmail.com</p>
+            <h4>Phone</h4>
+            <p>996-152-2713</p>
+            <h4>Address</h4>
+            <p>Kinfra Technopark,Calicut,India</p>
+            <div class=" contact-border"></div>
+            <p class="feedback-p">We love to hear from you! If you have any questions or 
+                <br>feedback,feel free to reach out.</p>
+        </div>
+        <div id="contact" class="contact-form">
+            <h1>Contact Us</h1>
+            <form>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+
+                <button class="send-btn" type="submit">Send Message</button>
+            </form>
+        </div>
+    </div>
+    
+    <script src="space.js"></script>
+
+</body>
+
+</html>
